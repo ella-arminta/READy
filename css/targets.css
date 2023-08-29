@@ -1,0 +1,23 @@
+.targets{
+    width: 100%;
+    height: calc(100vh - 65px);
+}
+.targets #carouselControls{
+    width: 100%;
+    height: 100%;
+}
+.carousel-item img{
+    width: 100%;
+    height: calc(100vh - 65px);
+    object-fit: cover;
+}
+.carousel-item:nth-child(1) img{
+    object-fit: cover;
+    object-position: 0px 0px;
+}
+/* min width 768 px aslinya */
+@media (min-width: 0px){
+    .d-md-block {
+        display: block!important;
+    }
+}

@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>History - READy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/e52db3bf8a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/team.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<style>
+    body,html{
+    min-height: 100vh;
+}
+.histordesc{
+    padding: 30px 90px;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 350px;
+    gap: 20px;
+}
+.histordesc p,.today p{
+    color: var(--orange);
+    font-family: 'Noto Serif',serif;
+    font-size: 25px;
+}
+.today{
+    padding: 30px 90px;
+    min-height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+    background-color: var(--orange);
+}
+.today h1 ,.histordesc h1{
+    font-size: 40px;
+    font-family: 'Noto Serif',serif;
+    width: 30%;
+    text-align: center;
+    color: var(--orange);
+    
+    min-width: 320px;
+}
+.today p, .histordesc p{
+    font-size: 20px;
+    width: 50%;
+    min-width: 200px;
+}
+.today h1 ,.today p{
+    color: white;
+}
+.histordesc h1{
+    font-size: 25px;
+    
+}
+@media screen and (max-width: 768px){
+    .today,.histordesc{
+        padding: 30px 45px;
+    }
+    .today h1,.histordesc h1,.today p,.histordesc p{
+        width: 100%;
+    }
+}
+
+.copyright{
+    height: 100%;
+    min-height: 200px;
+}
+</style>
+<style>
+  .landing .carousel-item img{
+  /* height: 100vh; */
+  object-fit: cover;
+}
+#carouselExampleSlidesOnly{
+  height: 100%;
+}
+.carousel-inner{
+  height: 100%;
+  object-fit: cover;
+}
+.carousel-item{
+  height: 100%;
+  width: 100%;
+  width: 100vw!important;
+  /* height: 100%; */
+}
+.carousel-item img{
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+</style>
+<body>
+  <div class="my-bg-black" style="background-color: #00000070;width:100%;height:100%;position:fixed;top:0;left:0;z-index:2;display: none;"></div>
+    <!-- navbar -->
+    <nav class="nav">
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <a href="#"><img class="ibe-logo"src="assets/images/2020_IBE_LOGO-Vertikal.jpg" alt="Logo IBE"></a>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="targets.html">Targets</a></li>
+                    <li><a href="activities.php">Activities</a></li>
+                    <li><a href="events.php">Ongoing Events</a></li>
+                    <li><a href="history.html" style="color: var(--orange-dark);">History</a></li>
+                    <!-- <li><a href="team.html">Team</a></li> -->
+                    <!-- <li><a href="faq.html">Faq</a></li> -->
+                    <li><a href="donate.php" class="regist">Donate Now!</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="judulPage">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="assets/images/home3.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="assets/images/home1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="assets/images/home2.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+        <div class="layer"></div>
+        <h1 class="hidden" data-aos="fade-up"  data-aos-duration="1000">History</h1>
+    </div>
+    <div class="histordesc">
+        <h1>Like Robert A Heinlein said,<b>"a generation which ignores history has no past and no future."</b></h1>
+        <p data-aos="fade-up"  data-aos-delay="1000">The project was started in 2021 by our founders. After further planning and consultations, now the project changed it's name and focusing as a website to recieved book donations.</p>
+    </div>
+    <div class="today">
+        <p data-aos="fade-up" data-aos-delay="400">Now, This website is officially run by International Business Engineering Major from Petra Christian University. All the books from donations will be given to a mini library that is also built by International Business Engineering Major from Petra Christian University.</p>
+        <h1 style="text-align: center;"><b>Where Are<br> We Now?</b></h1>
+    </div>
+    <!-- Mulai page -->
+    <section class="founders">
+        <div>
+            <h1 style="color: var(--blue);"><b>Our Founders</b></h1>
+            <p>This Project was founded in 2021 by Jessica Melinda, Putu Lauterina, and Shannen. Now are being continued by Livienia and Lilian.</p>
+        </div>
+        <div class="peoples">
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-up" data-aos-offset="300";>
+                  <div class="team-member">
+                    <figure>
+                      <img src="assets/images/jessmel.jpeg" alt="" class="img-responsive">
+                      <figcaption>
+                        <p>Hello</p>
+                        <ul>
+                          <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                          <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                          <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                        </ul>
+                      </figcaption>
+                    </figure>
+                    <h4>Jessica Melinda</h4>
+                    <p>Founder</p>
+                  </div>
+                </div>
+      
+                <div class="col-md-4"  data-aos="fade-up" data-aos-offset="300">
+                  <div class="team-member">
+                    <figure>
+                      <img src="assets/images/putu.jpeg" alt="" class="img-responsive">
+                      <figcaption>
+                        <p>Hai</p>
+                        <ul>
+                          <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                          <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                          <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                        </ul>
+                      </figcaption>
+                    </figure>
+                    <h4>Putu Lauterina</h4>
+                    <p>Founder</p>
+                  </div>
+                </div>
+      
+                <div class="col-md-4" data-aos="fade-up" data-aos-offset="300">
+                  <div class="team-member">
+                    <figure>
+                      <img src="assets/images/shannen.jpeg" alt="" class="img-responsive">
+                      <figcaption>
+                        <p>Haiii</p>
+                        <ul>
+                          <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                          <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                          <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                        </ul>
+                      </figcaption>
+                    </figure>
+                    <h4>Shannen</h4>
+                    <p>Founder</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="curteam">
+        <div>
+            <h1 style="color: var(--blue);"><b>Current Team</b></h1>
+            <p>Lilian and Livienia partner up to developing this website with the help and support from IBE</p>
+        </div>
+        <div class="peoples">
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-up" data-aos-offset="300">
+                  <div class="team-member">
+                    <figure>
+                      <img src="assets/images/livi.jpeg" alt="" class="img-responsive">
+                      <figcaption>
+                        <p>Hello</p>
+                        <ul>
+                          <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                          <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                          <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                        </ul>
+                      </figcaption>
+                    </figure>
+                    <h4>Livienia Sugiarto</h4>
+                    <p>Member</p>
+                  </div><!-- /.team-member-->
+                </div><!-- /.col-md-4 -->
+      
+                <div class="col-md-4" data-aos="fade-up" data-aos-offset="300">
+                  <div class="team-member">
+                    <figure>
+                      <img src="assets/images/lilian.jpeg" alt="" class="img-responsive">
+                      <figcaption>
+                        <p>Hai</p>
+                        <ul>
+                          <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                          <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                          <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                        </ul>
+                      </figcaption>
+                    </figure>
+                    <h4>Lilian Evangelista</h4>
+                    <p>Member</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- copyright -->
+    <div class="copyright">
+        <div>
+            <h3><i class="fa-solid fa-location-dot"></i> Address</h3>
+            <h3>P.621 Building</h3>
+            <h3>International Business Engineering</h3>
+            <h3>Petra Christian University</h3>
+            <h3>Jl. Siwalankerto No.121-131, Siwalankerto, Kec. Wonocolo, Surabaya, East Java 60236</h3>
+        </div>
+        <div>
+            <h3><i class="fa-solid fa-address-book"></i> Contact</h3>
+            <h3>tu-ibe@petra.ac.id</h3>
+            <h3>+62 822 3319 6920</h3>
+        </div>
+        <div id="google_translate_element"></div>
+    </div>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+      }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/navAnim.js"></script>
+    <script>
+        $(document).ready(function(){
+            setTimeout(function(){
+                $('.nav .container').fadeIn();
+            },700)
+            $('h1.hidden').addClass('show');
+            $('h1.hidden').removeClass('hidden');
+        })
+    </script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+.wedo,.sometimes{
+    width: 100%;
+    min-height: calc(100vh - 150px);
+    display: flex;
+    padding: 30px 90px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.wedo{
+    background-color: var(--orange);
+    color: var(--blue);
+}
+.sometimes{
+    background-color: white;
+    color: var(--blue);
+    flex-wrap: wrap-reverse;
+}
+.sometimes img{
+    width: 150%;
+    max-height: 80vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+}
+.wedo h1 ,.sometimes h1{
+    font-size: 40px;
+    font-family: 'Noto Serif',serif;
+    text-align: start;
+    color: var(--blue);
+    min-width: 320px;
+    margin-bottom: 40px;
+}
+.wedo p, .sometimes p{
+    font-size: 20px;
+    min-width: 200px;
+}
+.wedo div:nth-child(1), .sometimes div:nth-child(2){
+    width: 55%;
+    min-width: 360px;
+}
+.wedo div:nth-child(2), .sometimes div:nth-child(1){
+    width: 40%;
+}
+.sometimes div:nth-child(1){
+    width: 45%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.sometimes div img{
+    transition: all .8s ease;
+}
+.wedo img{
+    width: 100%;
+    max-height: 60vh;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: all .8s ease;
+}
+.sometimes div:nth-child(2){
+    padding: 10px 40px;
+    
+}
+.wedo div:nth-child(1){
+    padding: 10px 40px;
+}
+.sometimes div:nth-child(1):hover img{
+    transform: scale(1.2);
+}
+.wedo div:nth-child(2){
+    overflow: hidden;
+    border-radius: 5px;
+}
+.wedo div:nth-child(2):hover img{
+    transform: scale(1.2);
+}
+@media screen and (max-width: 768px){
+    .wedo,.sometimes{
+        padding: 30px 45px;
+    }
+}
+@media (max-width:834px) {
+    .sometimes div:nth-child(1){
+        width: 100%;
+    }
+}
+.thanku{
+    height: auto;
+    padding-bottom: 80px;
+}
+
+
+.thanku .othercontainer{
+    padding-top: 0;
+}
+
+.thanku h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Noto Serif',serif;
+    color: var(--blue);
+}
+/* Code By Kishore Rudraraju */
+/* https://www.youtube.com/watch?v=VcbMz39IZNY */
+.slick-slide{
+    margin: 0 20px;
+}
+
+.slick-slide img{
+    width: 100%;
+    min-width: 60px;
+}
+
+.slick-slider{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block
+}
+
+.slick-slide{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.slick-slide img{
+    display: block;
+}
+
+.slick-initialized .slick-slide{
+    display: block;
+}
+
+.copy{
+    padding-top: 250px;
+}
+.slide{
+    text-align: center;
+}
