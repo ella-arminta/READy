@@ -41,6 +41,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Account READy</title>
+    <link rel="icon" href="assets/images/2020_IBE_LOGO-Vertikal.jpg" type="image/x-icon">
 </head>
 <body>
     <h1>READy Admin Sign Up</h1>

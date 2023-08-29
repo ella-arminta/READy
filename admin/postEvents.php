@@ -82,6 +82,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <!-- fontawesome -->
   <script src="https://kit.fontawesome.com/e52db3bf8a.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="assets/images/2020_IBE_LOGO-Vertikal.jpg" type="image/x-icon">
 </head>
 <style>
     .navbar-nav {

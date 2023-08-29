@@ -18,6 +18,7 @@ curl_close($ch);
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
 <link href="https://cdn01.rumahweb.com/under-construction/style.css" rel="stylesheet">
+<link rel="icon" href="assets/images/2020_IBE_LOGO-Vertikal.jpg" type="image/x-icon">
 </head>
 <body>
 	<div style="background: #014CA0;color:#fff;padding:10px;">

@@ -40,6 +40,7 @@ $table_co= 1;
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
     <script src="https://cdn.datatables.net/buttons/1.7.0/js/buttons.html5.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/1.7.0/js/buttons.print.min.js"></script>
+    <link rel="icon" href="assets/images/2020_IBE_LOGO-Vertikal.jpg" type="image/x-icon">
 
 </head>
 <style>
